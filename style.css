@@ -1,0 +1,26 @@
+body {
+    background-color: darkslategray;
+
+}
+p{
+  border-style: dotted;
+  color: azure; 
+  border-color: black; 
+}
+h1{
+    padding-left: 40px;
+}
+div.kopejais{
+    min-height: 300px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.kreisais{
+    min-height: 50px;
+    background-color: bisque;
+}
+div.labais{
+    min-height: 50px;
+    background-color: aquamarine;
+}
