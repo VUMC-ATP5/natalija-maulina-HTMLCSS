@@ -1,26 +1,61 @@
 body {
-    background-color: darkslategray;
+    background-color: white;
 
 }
-p{
-  border-style: dotted;
-  color: azure; 
-  border-color: black; 
-}
+
 h1{
-    padding-left: 40px;
+    padding-left: 320px;
+    color: beige;
+}
+h2{
+    padding-left: 350px;
+    color: beige;
+}
+img{ 
+   display: block;
+   border-radius: 200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+h3{
+    color: beige;
+    padding-left: 370px;
+}
+
+h4{
+    color: beige;
+    padding-left: 370px;
+}
+a{ 
+    color:beige;
+    padding-left: 700px;
+}
+p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: beige;
+    font-style: italic;
 }
 div.kopejais{
-    min-height: 300px;
-    background-color: black;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 100px;
+    min-height:100px;
+    background-color:white;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    
+    
 }
-div.kreisais{
+div.augša{
     min-height: 50px;
-    background-color: bisque;
+    background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c74ad832-3001-423e-9ccc-ea3a262e9d80/d20sr0o-f9e87b85-4a7d-4dbd-afd0-57b833d1f0c8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3NGFkODMyLTMwMDEtNDIzZS05Y2NjLWVhM2EyNjJlOWQ4MFwvZDIwc3Iwby1mOWU4N2I4NS00YTdkLTRkYmQtYWZkMC01N2I4MzNkMWYwYzguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BQK3vBhnI0no2RcjEjAuhiWnjkCyY0JP6cAi7qksJh8);
 }
-div.labais{
+div.apakša{
+    
     min-height: 50px;
-    background-color: aquamarine;
+  background-color: darkslategray;
+}
+ul{
+    color: beige;
+    padding-left: 100px;
 }
